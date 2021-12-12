@@ -17,7 +17,7 @@ body {
     justify-content: center;
 }
 
-.instagram-wrapper {
+.instagram_wrapper {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -25,21 +25,21 @@ body {
     height: 100vh;
 }
 
-.instagram-phone {
+.instagram_phone {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.instagram-phone img {
+.instagram_phone img {
     height: 50rem;
 }
 
-.instagram-continue {
+.instagram_continue {
     display: flex;
-    align-items: center; /* horizontal */
-    justify-content: space-around; /* vertical */
+    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -50,7 +50,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: white;
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
@@ -60,11 +60,11 @@ body {
     min-height: 19rem;
 }
 
-.instagram-logo {
+.instagram_logo {
     height: 3rem;
 }
 
-.profile-photo {
+.profile_photo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,31 +72,32 @@ body {
     overflow: hidden;
 }
 
-.profile-photo img {
+.profile_photo img {
     height: 6rem;
 }
 
-.instagram-login {
+.login {
     background-color: #0095f6;
-    color: #ffffff;
+    color: white;
     padding: 8px;
     border-radius: 4px;
 }
 
-.instagram-logout {
+.remove_account {
     color: #0095f6;
     margin-top: 1rem;
+
 }
 
-.not-account {
+.not_account {
     color: rgb(160, 160, 160);
 }
 
-.link-blue {
+.link_blue {
     color: #0095f6;
 }
 
-.get-the-app {
+.get_the_app {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,46 +114,42 @@ body {
     padding: 1rem;
 }
 
-.app-download {
+.app_download {
     height: 3rem;
     width: 10rem;
     background-size: cover;
 }
 
-.app-download:nth-child(1) {
+.app_download:nth-child(1) {
     background-image: url('./img/apple-button.png');
+    border-radius: 5px;
 }
 
-.app-download:nth-child(2) {
+.app_download:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
 }
 
 /* media queries */
 
-
 @media (max-width: 1024px) {
-    .instagram-wrapper {
+    .instagram_wrapper {
         width: 90%;
     }
 }
 
 @media (max-width: 650px) {
     body {
-        background-color: #ffffff;
+        background-color: white;
     }
-
-    .instagram-wrapper {
+    .instagram_wrapper {
         width: 90%;
     }
-
-    .instagram-phone {
+    .instagram_phone {
         display: none;
     }
-
-    .instagram-continue {
+    .instagram_continue {
         width: 100%;
     }
-    
     .group {
         border: 1px solid transparent;
     }
